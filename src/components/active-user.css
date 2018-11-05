@@ -1,0 +1,53 @@
+.activeUser{
+	width: 20%;
+	height: 100%;
+	box-sizing: content-box;
+	border:1.5px solid rgb(100, 100, 110);
+	border-radius: 5px;
+	margin: 10px 30px;
+	font-size: 20px;
+}
+
+.photo{
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.activeUser .name{
+	text-align: center;
+	margin:0;	
+}
+
+.photo img{
+	width:75%;
+	height: 75%;
+}
+
+.activeUser table{
+	width: 75%;
+	margin: 20px auto;
+}
+
+.activeUser tr {
+	padding: 8px;
+	border-top: 1.5px solid rgb(100, 100, 110); 
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.activeUser td{
+	width:100%;
+	border:none;
+}
+
+.phrase {
+	width: 75%;
+	margin: 20px auto;
+}
+
+.phrase span{
+	margin-bottom: 1px;
+	font-weight: bold;
+}

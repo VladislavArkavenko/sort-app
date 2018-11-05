@@ -1,0 +1,5 @@
+.data {
+  display: flex;
+  justify-content: flex-start;
+  font-family: 'Poor Story', cursive;
+}

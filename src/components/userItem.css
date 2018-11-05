@@ -1,0 +1,10 @@
+.avatar img{
+	margin-left: 5px; 
+	width:64px;
+	height:64px;
+}
+
+.userItem tr {
+	width: 100%;
+}
+

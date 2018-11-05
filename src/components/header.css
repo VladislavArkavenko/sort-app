@@ -1,0 +1,62 @@
+body, html{
+	margin:0;
+	padding:0;
+}
+
+.row {
+	width: 95%;
+	margin: 6px auto;
+	display: flex;
+	justify-content: left;
+}
+
+header input {
+
+	box-sizing: border-box;
+	width: 96vw;
+	margin: 7px auto 2px auto;
+	padding: 5px;
+	height: 29px;
+	border: 1px solid rgb(110, 110, 120);
+	box-shadow: 0px 0px 2px rgb(110, 110, 120);
+    border-radius: 5px;
+}
+
+header input::placeholder{
+	color: rgb(120, 120, 130);
+}
+
+header input:focus{
+	box-shadow: 0px 0px 4px rgb(0, 125, 227);
+	border: 0.5px solid rgb(0, 125, 227);
+	outline: none;
+}
+
+header .allButtons {
+	display: flex;
+	justify-content: space-between;
+}
+
+header button {
+	border:1px solid rgb(100, 100, 110);
+	border-radius: 4px;
+	height: 34px;
+	width: 130px;
+	box-shadow: none;
+	outline: none;
+	background: transparent;
+	font-size: 14px;
+	cursor: pointer;
+	margin-right:10px;
+}
+
+header button:nth-child(3) {
+	border-color: rgb(191, 2, 2);
+	background: rgb(227, 64, 64);
+	color: white;
+}
+
+header button:hover {
+	transform: scale(1.075);
+	box-shadow: 0px 0px 7px 0px rgba(80, 80, 80, 0.75);;
+}
